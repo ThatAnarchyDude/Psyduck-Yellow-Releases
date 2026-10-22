@@ -1147,3 +1147,21 @@ What changed since 0041:
 - Internally: a 28-flag "safe pool" for future extra trainers was researched (trainer IDs are nearly used up); nothing from it is in this build.
 
 Checked: small emulator tests of the Silph Co. entrance and a trainer battle, a Victory Road trainer sight-battle, the Route 22 gate in both directions, the second rival scene (with prepared flags and badges), and a normal start to the bedroom. **Not checked:** winning the new battles, the full League, the Hall of Fame, or anything in Johto. The developer has played New Game only through Vermilion.
+
+
+## October 22, 2026 — prototype 0050 (BETA pre-release)
+
+**BETA PRE-RELEASE, FOR TESTING ONLY. Not a complete game. Only the Kanto campaign, up to the first Hall of Fame, has been developed. Johto is NOT ready — do not go there.**
+
+[Create prototype 0050](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0050/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Psyduck Yellow Prototype 0050.nds".
+
+What changed since 0042 (internal builds 0043–0050):
+- Your **starter Eevee** can now evolve into all eight Eeveelutions, and into the new **Novareon** by using a **Sandwich** on it. Each of them is a starter-line Pokémon with **its own Mega Evolution** (Eonite; Novareonite for Novareon). Ordinary Eevee is unchanged.
+- **Novareon** is a brand-new Pokémon with its own artwork. It is the first **Stellar**-type Pokémon: Stellar takes normal damage from everything, and a Stellar Pokémon gets the same-type bonus (STAB) on every move. Novareon's stats, moves and ability are placeholders copied from Umbreon for now.
+- The **Sandwich** and **Novareonite** are free in the Vermilion Mart, like the other Mega Stones.
+- New images: a rainbow **STELLAR** type tag on the summary screen, a **Sandwich** item icon and a **Novareon** party icon (gray, because the game's shared icon colours contain no blue).
+- Fixes for the starter Pokémon: the evolution screen is no longer slow or misplaced, their summary-screen sprite placement and animations and the ball entrance use their originals' data, and a shiny Mega no longer draws as a solid black shape.
+- Under the hood: the starter species had been missing from three per-species display tables (sprite animation and placement, follower flags) and had compressed shiny palettes, which caused the evolution-screen, summary-screen and black-Mega problems; each starter species now copies its original's entries.
+- Not changed: the Kanto campaign itself, the save layout, and Johto.
+
+Checked: small emulator tests only (Water Stone and Sandwich evolutions, Mega Evolution, Novareon fighting, the Stellar damage bonus, the new icons and tag, the starter evolution screen against ordinary Eevee's, and the other types' tags unchanged). Not checked by eye: the starters' summary-screen animations and the ball entrance, the other Eeveelution evolutions one by one, and the Pokédex entries.
