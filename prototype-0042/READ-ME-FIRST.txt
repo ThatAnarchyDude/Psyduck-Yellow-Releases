@@ -1,0 +1,29 @@
+Pokemon Psyduck Yellow - prototype 0042 BETA PRE-RELEASE - October 22, 2026
+
+*** BETA PRE-RELEASE, FOR TESTING ONLY. NOT A COMPLETE GAME. ***
+Only the Kanto campaign, up to your first Hall of Fame induction, has been developed.
+JOHTO IS NOT READY. DO NOT GO THERE. After the Hall of Fame, the gate on Route 22 opens a path toward Johto - do not take it.
+
+HOW TO PLAY
+1. Open the patching page: https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0042/index.html
+2. Choose your OWN, original, unmodified USA HeartGold .nds file (not another prototype).
+3. Click "Create my playable NDS", wait for the checks to finish, then download the result and load it in your DS emulator.
+4. Start a NEW GAME. Saves from older prototypes do not work. Keep this build and its saves separate, and never reuse emulator save states between versions.
+Nothing is uploaded; the patching happens in your browser and every step is hash-checked. Expected final SHA256: 50d0ff962d032c5fe507f4f0d036f4db9d047662ff772d8563c01e4fbbf555a3
+
+WHAT IS IN THIS RELEASE
+- The Kanto story of Pokemon Yellow, rebuilt inside HeartGold: from Oak's lab and your starter (Psyduck, Togepi or Eevee) to the Hall of Fame.
+- New since 0041: Silph Co. (four floors with Yellow's trainers, your rival, Giovanni, the Lapras gift and the Master Ball), Victory Road trainers, a second rival battle on Route 22, the Route 22 gate that now lets you through to Victory Road once you hold all eight Kanto badges, and the path from the Hall of Fame onward.
+- Already in 0041: Pokemon Tower with Mr. Fuji and the Poke Flute, the Celadon Gym, the Rocket Hideout, Routes 8 and 11-18, the Fuchsia, Saffron, Seafoam (Blaine) and Viridian gyms, the Elite Four and Champion Blue, Mega Psyduck and Mega Eevee, and every Mega Stone for free in the Vermilion Mart.
+
+WHAT HAS BEEN TESTED
+- The developer has played New Game through Vermilion (including the Pewter and Cerulean gyms and Mega Evolution).
+- EVERYTHING AFTER THAT, including all new work here, has only had small emulator checks (for example: entering Silph Co. and starting a battle; walking into the Route 22 rival scene; the Route 22 gate). Winning those battles, the full League and the Hall of Fame have NOT been played end to end on a real save.
+
+NOT BUILT YET
+Silph Co. Card Key doors and item balls; Moltres; Victory Road item balls; the Safari Zone and Gold Teeth (a Warden in Fuchsia gives Strength and Surf instead); the Cinnabar Mansion; Game Corner and Department Store extras; some of Yellow's extra gym trainers (HeartGold's gyms have fewer). Silph Co. and the Rocket Hideout reuse HeartGold's building layouts rather than Yellow's floor plans, and only part of Victory Road holds trainers.
+
+KNOWN ISSUE
+The top screen went black once after leaving Viridian Forest by the north exit; saving and reloading fixed it. Not investigated yet.
+
+Public files are patches and documentation only. No ROM, save or game file is distributed; you must supply your own legally obtained game. Credits: BluRosie/hg-engine and contributors; the patch decoder is RomPatcher.js by Marc Robledo (MIT); Pokemon Yellow data and dialogue are referenced from pret/pokeyellow. Unofficial fan project, not affiliated with Nintendo, Game Freak, Creatures or The Pokemon Company.
