@@ -3,7 +3,7 @@
 A plain-language guide to what has changed, what you can play now, and what is
 still being built. Share this page with anyone following the project.
 
-**Last updated: October 22, 2026.**
+**Last updated: October 23, 2026.**
 
 [Watch LIVE testing with video and audio]()
 
@@ -1165,3 +1165,20 @@ What changed since 0042 (internal builds 0043–0050):
 - Not changed: the Kanto campaign itself, the save layout, and Johto.
 
 Checked: small emulator tests only (Water Stone and Sandwich evolutions, Mega Evolution, Novareon fighting, the Stellar damage bonus, the new icons and tag, the starter evolution screen against ordinary Eevee's, and the other types' tags unchanged). Not checked by eye: the starters' summary-screen animations and the ball entrance, the other Eeveelution evolutions one by one, and the Pokédex entries.
+
+
+## October 23, 2026 — prototype 0056 (BETA pre-release)
+
+**BETA PRE-RELEASE, FOR TESTING ONLY. Not a complete game. Only the Kanto campaign, up to the first Hall of Fame, has been developed. Johto is NOT ready — do not go there.**
+
+[Create prototype 0056](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0056/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Psyduck Yellow Prototype 0056.nds".
+
+What changed since 0050 (internal builds 0051–0056):
+- **Pokédex:** the starter Eevee line and the starter Psyduck now register as their ordinary species and show their real National Pokédex numbers (no more 1511/1513).
+- The **Pokédex opens on the Kanto list** (Pokémon 1–151) with a "KANTO POKéDEX" title and a KANTO switch label. Johto and every other Pokémon appear only in National mode.
+- **TM34 is now Moonblast and TM58 is Dazzling Gleam** (Fairy moves, so Eevee can evolve into Sylveon). Moonblast hits at 30% for its Sp. Atk drop; Charge Beam (TM57) is also learnable by Thundurus, Tapu Koko, Regieleki and Miraidon.
+- Several Fairy-type moves now match the owner's specifications.
+- Under the hood: the starter species ids (1076 and up) are mapped back to their base species through the engine's own alias table in the Pokédex number routine and in the seen/caught registration; the regional Pokédex list was replaced by Kanto 1–151.
+- Not changed: the Kanto campaign itself, the save layout, and Johto.
+
+Checked: the Pokédex screens and a Summary Dex number on a prepared test save. Not checked: TMs in battle, every Kanto list slot, the Pokédex search page and Oak's evaluation text.

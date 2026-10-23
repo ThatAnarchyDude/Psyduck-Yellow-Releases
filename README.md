@@ -3,22 +3,23 @@
 Downloads for **Pokémon Psyduck Yellow**, an unofficial fan project that rebuilds Pokémon Yellow's Kanto campaign inside Pokémon HeartGold (starting Psyduck / Togepi / Eevee, Mega Evolution for the starters, and more).
 
 > ## ⚠️ BETA PRE-RELEASE — FOR TESTING ONLY
-> The newest release (**prototype 0050 BETA**) is a **pre-release for testing. It is NOT a complete game.**
+> The newest release (**prototype 0056 BETA**) is a **pre-release for testing. It is NOT a complete game.**
 > Only the **Kanto campaign, up to your first Hall of Fame induction,** has been developed.
 > **Johto is NOT ready — DO NOT go there.**
 
 ## The game in plain words
 Psyduck Yellow retells **Pokémon Yellow's Kanto story inside Pokémon HeartGold**. You start with **Psyduck, Togepi or Eevee**; Psyduck and Eevee can **Mega Evolve**; and Kanto's towns, gyms, Team Rocket plots, Elite Four and Champion Blue follow Yellow's teams and dialogue. The goal of this project is a finished Kanto adventure from Pallet Town to the first Hall of Fame; Johto (HeartGold's own region) is meant to come later as a postgame.
 
-## Where it stands right now (prototype 0050 BETA)
+## Where it stands right now (prototype 0056 BETA)
 - **Built:** Pallet Town through Vermilion, Pokémon Tower, Celadon and the Rocket Hideout, Routes 8 and 11–18, Fuchsia, Saffron (with Silph Co.), Seafoam and Viridian gyms, Route 22, Victory Road, the Indigo Plateau League and the Hall of Fame.
 - **Played by the developer:** New Game through Vermilion. Everything after that has only had small emulator tests, so expect bugs, including softlocks.
 - **New in 0050:** your starter Eevee can evolve into all eight Eeveelutions and the new Stellar-type **Novareon** (use a Sandwich), each with its own Mega Evolution; plus fixes for the starters' evolution screen, summary sprites and Mega colours.
+- **New in 0056:** the Pokédex opens on Kanto (1-151) with real National numbers for the starter Pokémon; TM34 is Moonblast and TM58 is Dazzling Gleam.
 - **Not built yet:** some side content (Card Key doors, Moltres, Safari Zone, Cinnabar Mansion, some extra gym trainers) and **all of Johto**.
 
 
 ## Play it
-1. Open the latest page from the [Releases](../../releases) section (or the [hosted prototype 0050 BETA patching page](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0050/index.html)).
+1. Open the latest page from the [Releases](../../releases) section (or the [hosted prototype 0056 BETA patching page](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0056/index.html)).
 2. Select your **own, original, unmodified USA HeartGold `.nds`**.
 3. Click *Create my playable NDS*, wait for verification, then download it and load it in your DS emulator.
 4. Start a **New Game**. Saves from older prototypes are not supported.
@@ -41,6 +42,7 @@ This is an unofficial fan project. It is not affiliated with or endorsed by Nint
 - Pokémon Yellow's data and layout reference from the [pret/pokeyellow](https://github.com/pret/pokeyellow) disassembly
 
 ## Release history (newest first)
+- **0056 BETA — October 23, 2026 (pre-release, testing only).** Pokédex opens on Kanto with real National numbers for the starters; Moonblast and Dazzling Gleam TMs; Fairy-move fixes. Kanto only; Johto not ready.
 - **0050 BETA — October 22, 2026 (pre-release, testing only).** The starter Eevee line: all eight Eeveelutions plus the new Stellar-type Novareon (Sandwich), each with its own Mega; new Stellar, Sandwich and Novareon images; fixes for the starters' evolution screen, summary sprites and Mega colours. Kanto only; Johto not ready.
 - **0042 BETA — October 22, 2026 (pre-release, testing only).** Silph Co., Victory Road, the second Route 22 rival battle, the Route 22 badge gate, and the way to the League and Hall of Fame. Kanto only; Johto not ready.
 - **0041 EXPERIMENTAL — October 22, 2026.** Pokémon Tower, Celadon Gym, Rocket Hideout, Routes 8 and 11–18, the Fuchsia/Saffron/Seafoam/Viridian gyms, the Indigo League, Mega Psyduck and the free Mega Stones.
