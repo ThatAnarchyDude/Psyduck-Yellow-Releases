@@ -3,7 +3,7 @@
 A plain-language guide to what has changed, what you can play now, and what is
 still being built. Share this page with anyone following the project.
 
-**Last updated: October 23, 2026.**
+**Last updated: October 24, 2026.**
 
 [Watch LIVE testing with video and audio]()
 
@@ -1182,3 +1182,22 @@ What changed since 0050 (internal builds 0051–0056):
 - Not changed: the Kanto campaign itself, the save layout, and Johto.
 
 Checked: the Pokédex screens and a Summary Dex number on a prepared test save. Not checked: TMs in battle, every Kanto list slot, the Pokédex search page and Oak's evaluation text.
+
+
+## October 24, 2026 — prototype 0081 (BETA pre-release)
+
+**BETA PRE-RELEASE, FOR TESTING ONLY. Not a complete game. Only the Kanto campaign, up to the first Hall of Fame, has been developed. Johto is NOT ready — do not go there.**
+
+[Create prototype 0081](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0081/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Psyduck Yellow Prototype 0081.nds".
+
+What changed since 0056 (internal builds 0057–0081):
+- **Bug fixes:** 17 trainer records were read with the wrong party size, so some Celadon, Saffron and Viridian Gym trainers had garbage second Pokémon (a Celadon Gym trainer's second Pokémon was a Lv77 Rapidash); the Celadon Game Corner's own NPCs read garbage text; leaving the first Silph Co. floor by its door dropped the player into a black "Mystery Zone".
+- **Champion Blue:** the League's Champion room now shows Blue (rival class and name, rival sprite, Yellow's lines) instead of HeartGold's Lance. The whole League was played end to end on a test warp: Champion fight, Hall of Fame, save prompt.
+- **Item balls** from Yellow in Silph Co. (12), the Pokémon Tower (7), the Rocket Hideout (8) and Victory Road (5), and **Moltres** (Lv50) on Victory Road 2F. Yellow's TM balls that have no TM in this game are left out.
+- **Novareon:** its own Pokédex entry (National No. 1026, "Star Chart Pokémon", entry text from the design document), its own follower, a blue party icon, and Mega Novareon with new battle sprites (a rainbow disk tail behind the body). Novareonite and Eonite have their own descriptions.
+- **New icons:** Psyduckite and Novareonite in the engine's Mega Stone style, a new Sandwich icon (a low sub).
+- **Pokédex and Summary:** the Pokédex opens on the Kanto list and Oak's evaluation says Kanto; the Summary's Type row shows the STELLAR chip in correct (violet and pink) colors; each Eeveelution Mega has its own color accent.
+- Under the hood: Novareon's Pokédex identity is the unused species id 500 (the SIZE page breaks above id 1075); the Summary's type-chip drawing code uses a spare chip for Stellar; trainer type bytes now match their parties; static audits (tools/audit_*.py) and an emulator smoke test of the new maps are in the source.
+- Not changed: the save layout and Johto.
+
+Checked: small emulator tests on prepared saves (see the read-me). Not checked: a real-save League win.
