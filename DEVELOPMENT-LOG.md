@@ -1201,3 +1201,20 @@ What changed since 0056 (internal builds 0057–0081):
 - Not changed: the save layout and Johto.
 
 Checked: small emulator tests on prepared saves (see the read-me). Not checked: a real-save League win.
+
+
+## October 24, 2026 — prototype 0086 (BETA pre-release)
+
+**BETA PRE-RELEASE, FOR TESTING ONLY. Not a complete game. Only the Kanto campaign, up to the first Hall of Fame, has been developed. Johto is NOT ready — do not go there.**
+
+[Create prototype 0086](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0086/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Psyduck Yellow Prototype 0086.nds".
+
+What changed since 0081 (internal builds 0082–0086):
+- **Route 25:** the mid-route Camper (in the alcove) now spots you one tile later, so he no longer walks out early and stops you in a gap between the trees.
+- **Pokémon Tower:** all seven floors use a recolored copy of the Bell Tower interior textures (dark violet stone instead of brown wood). Layouts are still the Bell Tower's; pillars and lamps keep their old colors.
+- **Hall of Fame:** the speech is Yellow's Oak ("Er-hem! Congratulations...") instead of HeartGold's Lance (the Johto postgame shares this room text for now).
+- **Trainer sprites:** nine Bug Catchers, a Youngster, a Hiker and a Super Nerd now use the sprite that matches their class.
+- **Sandwich:** its bag description is now its own ("A hearty sandwich that makes certain Eevee evolve.") instead of another text's line.
+- Not changed: the save layout and Johto.
+
+Reported, not fixed: a freeze when arriving in Cerulean after Route 25 (not reproduced). Checked: small emulator tests on prepared saves (see the read-me).

@@ -1,0 +1,33 @@
+Pokemon Psyduck Yellow - prototype 0086 BETA PRE-RELEASE - October 24, 2026
+
+*** BETA PRE-RELEASE, FOR TESTING ONLY. NOT A COMPLETE GAME. ***
+Only the Kanto campaign, up to your first Hall of Fame induction, has been developed.
+JOHTO IS NOT READY. DO NOT GO THERE. After the Hall of Fame, the gate on Route 22 opens a path toward Johto - do not take it.
+
+HOW TO PLAY
+1. Open the patching page: https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0086/index.html
+2. Choose your OWN, original, unmodified USA HeartGold .nds file (not another prototype).
+3. Click "Create my playable NDS", wait for the checks to finish, then download the result ("Psyduck Yellow Prototype 0086.nds") and load it in your DS emulator.
+4. Start a NEW GAME. Saves from older prototypes do not work (a renamed old save may behave strangely). Keep this build and its saves separate, and never reuse emulator save states between versions.
+Nothing is uploaded; the patching happens in your browser and every step is hash-checked. Expected final SHA256: 8ae80ded615d1c5a5f1e2b6b702de4ff9c37547fd7bd421ebdadf95d3e240bbf
+
+WHAT IS NEW SINCE 0081
+- Route 25: the mid-route Camper spots you one tile later, so he no longer blocks the gap between the trees.
+- Pokemon Tower: all seven floors use dark violet stone textures (layout is still the Bell Tower's; pillars and lamps keep their old colors).
+- Hall of Fame: Yellow's Oak speech instead of Lance.
+- Trainer sprites: nine Bug Catchers, a Youngster, a Hiker and a Super Nerd use the sprite that matches their class.
+- Sandwich: its own bag description.
+- Everything from 0081 is still here.
+
+WHAT HAS BEEN TESTED
+- The developer has played New Game through Cerulean and found the Camper problem and a freeze (below).
+- Everything after Cerulean has only had small emulator checks on prepared test saves. For this release: the Camper's sight (old versus new), the Tower floors on screen, the Sandwich text in the bag, a Bug Catcher fight after the sprite change; the Hall of Fame text was audited but not watched in-game. Static checks of every message pass.
+
+NOT BUILT YET
+Silph Co. Card Key doors and the Take Down TM; Victory Road's Sky Attack, Submission and Mega Kick TMs and its boulder switches; the Safari Zone and Gold Teeth (a Warden in Fuchsia gives Strength and Surf instead); the Cinnabar Mansion; Game Corner and Department Store extras; some of Yellow's extra gym trainers. Pokemon Tower is not laid out like Yellow's yet. Novareon's stats, ability and moves are placeholders; every Eeveelution Mega uses Mega Eevee's shape.
+
+KNOWN ISSUES
+One freeze was reported when arriving in Cerulean (from Nugget Bridge, or by Fly) after fighting a Route 25 trainer who blocked the path; walking up from Vermilion worked. Not reproduced yet; the save involved may have been an old renamed one.
+The VS banner under Champion Blue reads GIOVANNI. The Pokedex "seen/obtained" totals skip Novareon. Oak's complete-Pokedex check may still expect 256 species. Novareon's follower is a recolored Umbreon placeholder. The top screen went black once after leaving Viridian Forest by the north exit.
+
+Public files are patches and documentation only. No ROM, save or game file is distributed; you must supply your own legally obtained game. Credits: BluRosie/hg-engine and contributors; the patch decoder is RomPatcher.js by Marc Robledo (MIT); Pokemon Yellow data and dialogue are referenced from pret/pokeyellow; Novareon artwork from the developer's own sprite library. Unofficial fan project, not affiliated with Nintendo, Game Freak, Creatures or The Pokemon Company.
