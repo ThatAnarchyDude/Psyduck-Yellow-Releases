@@ -3,7 +3,7 @@
 A plain-language guide to what has changed, what you can play now, and what is
 still being built. Share this page with anyone following the project.
 
-**Last updated: October 24, 2026.**
+**Last updated: October 26, 2026.**
 
 [Watch LIVE testing with video and audio]()
 
@@ -1218,3 +1218,22 @@ What changed since 0081 (internal builds 0082–0086):
 - Not changed: the save layout and Johto.
 
 Reported, not fixed: a freeze when arriving in Cerulean after Route 25 (not reproduced). Checked: small emulator tests on prepared saves (see the read-me).
+
+
+## October 26, 2026 — prototype 0105 (BETA pre-release)
+
+**BETA PRE-RELEASE, FOR TESTING ONLY. Not a complete game. Only the Kanto campaign, up to the first Hall of Fame, has been developed. Johto is NOT ready — do not go there.**
+
+[Create prototype 0105](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0105/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Psyduck Yellow Prototype 0105.nds".
+
+What changed since 0086 (internal builds 0087–0105):
+- **Pokémon Tower** is rebuilt to Yellow's floor plans (seven floors, trainers, the purified zone, Mr. Fuji's rescue scenes).
+- **Mt. Moon, Rock Tunnel, Rocket Hideout and Silph Co.** are rebuilt from Yellow's maps: cave floors roll wild encounters, the Hideout has its spin-tile mazes and Lift Key, Silph Co. has 11 floors with Card Key doors.
+- **Pokémon Mansion** (four floors, statue switches and gates, holes, diaries) and its Secret Key, which opens the Cinnabar Gym door.
+- **Viridian Gym** has Yellow's layout, spin tiles and all eight trainers. **Victory Road** has Yellow's three floors with boulder switches.
+- **Safari Zone** (four areas, wild Pokémon, items), the Gold Teeth, the Fishing Guru's Surf and the Warden's Strength swap in Fuchsia.
+- **Fix:** Vermilion's Pokémon Center and two houses no longer show a black screen (an invalid character sprite).
+- **Pokédex:** all 1,026 entries were checked; registering a Pokémon from No. 650 onward no longer wipes the "seen" marks of other entries.
+- Not changed: the save layout and Johto.
+
+Reported, not fixed: a freeze when arriving in Cerulean after Route 25 (not reproduced). Checked: small emulator tests on prepared saves and a sweep of all 587 maps (see the read-me).
