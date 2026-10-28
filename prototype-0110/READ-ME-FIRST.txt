@@ -9,7 +9,7 @@ HOW TO PLAY
 2. Choose your OWN, original, unmodified USA HeartGold .nds file (not another prototype).
 3. Click "Create my playable NDS", wait for the checks to finish, then download the result ("Psyduck Yellow Prototype 0110.nds") and load it in your DS emulator.
 4. Start a NEW GAME. Saves from older prototypes do not work (a renamed old save may behave strangely). Keep this build and its saves separate, and never reuse emulator save states between versions.
-Nothing is uploaded; the patching happens in your browser and every step is hash-checked. Expected final SHA256: d5885408bcf8fc852ca8d445ddcb36b31a5b3ddb2989e7530bcee62dab13dc60
+Nothing is uploaded; the patching happens in your browser and every step is hash-checked. Expected final SHA256: b43ce63123f61c07cfcd6f6fee7f94116c017d493a8d6964e827e099c7a8bcd4
 
 WHAT IS NEW SINCE 0105
 - VS banners now show the real trainer: the Elite Four (Lorelei, Bruno, Agatha, Lance) and Champion Blue each have their own name (Champion Blue used to read GIOVANNI).

@@ -2,7 +2,7 @@
   "version": "0110-BETA",
   "source_sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
   "source_bytes": 134217728,
-  "output_sha256": "d5885408bcf8fc852ca8d445ddcb36b31a5b3ddb2989e7530bcee62dab13dc60",
+  "output_sha256": "b43ce63123f61c07cfcd6f6fee7f94116c017d493a8d6964e827e099c7a8bcd4",
   "output_bytes": 200650720,
   "output_name": "Psyduck Yellow Prototype 0110.nds",
   "cumulative": true,
@@ -31,8 +31,8 @@
     },
     {
       "url": "0039-art-to-0110.xdelta",
-      "bytes": 2312494,
-      "sha256": "0c962feb14278e469f90a75a85a282b96c298e33c20a26c22a97c683c4d37c58"
+      "bytes": 2312544,
+      "sha256": "1c8a4455147372ae5f0808d2d53de4233ceffdbaaea95233d12889d013e28b99"
     }
   ]
 }
