@@ -3,7 +3,7 @@
 A plain-language guide to what has changed, what you can play now, and what is
 still being built. Share this page with anyone following the project.
 
-**Last updated: October 26, 2026.**
+**Last updated: October 28, 2026.**
 
 [Watch LIVE testing with video and audio]()
 
@@ -1237,3 +1237,19 @@ What changed since 0086 (internal builds 0087–0105):
 - Not changed: the save layout and Johto.
 
 Reported, not fixed: a freeze when arriving in Cerulean after Route 25 (not reproduced). Checked: small emulator tests on prepared saves and a sweep of all 587 maps (see the read-me).
+
+
+## October 28, 2026 — prototype 0110 (BETA pre-release)
+
+**BETA PRE-RELEASE, FOR TESTING ONLY. Not a complete game. Only the Kanto campaign, up to the first Hall of Fame, has been developed. Johto is NOT ready — do not go there.**
+
+[Create prototype 0110](https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0110/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Psyduck Yellow Prototype 0110.nds".
+
+What changed since 0105 (internal builds 0106–0110):
+- **VS banners** now show the real trainer: the Elite Four (Lorelei, Bruno, Agatha, Lance) and Champion Blue each have their own name (Champion Blue used to read GIOVANNI).
+- **Novareon** now counts in the Pokédex number on the Trainer Card.
+- **Strength** works with Kanto badges: the Rainbow Badge (or the Plain Badge) is enough, both in the party menu and on boulders. Before, a player with only Kanto badges could never use it.
+- **Victory Road:** the puzzle boulders are real Strength boulders (they were Rock Smash rocks), the switches and the 3F hole are drawn, and the barriers sit where Yellow's do. With Strength (HM04 from the Warden in Fuchsia) and the Rainbow Badge, push a boulder onto the first switch on 2F to open the way, as in Yellow. The boulder that blocks the main route on 2F cannot be pushed.
+- Not changed: the save layout and Johto.
+
+Reported, not fixed: a freeze when arriving in Cerulean after Route 25 (not reproduced). Checked: small emulator tests on prepared saves, the puzzles of the Vermilion, Saffron and Fuchsia gyms, and Victory Road's 1F and 2F puzzles (see the read-me).

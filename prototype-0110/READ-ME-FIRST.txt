@@ -1,0 +1,35 @@
+Pokemon Psyduck Yellow - prototype 0110 BETA PRE-RELEASE - October 28, 2026
+
+*** BETA PRE-RELEASE, FOR TESTING ONLY. NOT A COMPLETE GAME. ***
+Only the Kanto campaign, up to your first Hall of Fame induction, has been developed.
+JOHTO IS NOT READY. DO NOT GO THERE. After the Hall of Fame, the gate on Route 22 opens a path toward Johto - do not take it.
+
+HOW TO PLAY
+1. Open the patching page: https://raw.githack.com/ThatAnarchyDude/Psyduck-Yellow-Releases/main/prototype-0110/index.html
+2. Choose your OWN, original, unmodified USA HeartGold .nds file (not another prototype).
+3. Click "Create my playable NDS", wait for the checks to finish, then download the result ("Psyduck Yellow Prototype 0110.nds") and load it in your DS emulator.
+4. Start a NEW GAME. Saves from older prototypes do not work (a renamed old save may behave strangely). Keep this build and its saves separate, and never reuse emulator save states between versions.
+Nothing is uploaded; the patching happens in your browser and every step is hash-checked. Expected final SHA256: d5885408bcf8fc852ca8d445ddcb36b31a5b3ddb2989e7530bcee62dab13dc60
+
+WHAT IS NEW SINCE 0105
+- VS banners now show the real trainer: the Elite Four (Lorelei, Bruno, Agatha, Lance) and Champion Blue each have their own name (Champion Blue used to read GIOVANNI).
+- Novareon now counts in the Pokédex number on the Trainer Card.
+- Strength works with Kanto badges: the Rainbow Badge (or the Plain Badge) is enough, both in the party menu and on boulders. Before, a player with only Kanto badges could never use it.
+- Victory Road: the puzzle boulders are real Strength boulders (they were Rock Smash rocks), the switches and the 3F hole are drawn, and the barriers sit where Yellow's do. With Strength (HM04 from the Warden in Fuchsia) and the Rainbow Badge, push a boulder onto the first switch on 2F to open the way, as in Yellow. The boulder that blocks the main route on 2F cannot be pushed.
+- Everything from 0105 is still here.
+
+WHAT HAS BEEN TESTED
+- The developer has played New Game through Cerulean on earlier builds and is starting a full playthrough with this one.
+- Everything after Cerulean has only had small emulator checks on prepared test saves: each rebuilt area was entered, one reward and one battle checked, and the exit used; all 587 maps were entered once without a crash (last swept on build 0104); the Pokedex was opened for sample entries of every generation.
+- Since 0105, on prepared saves with only Kanto badges: the trash-can switches in Vermilion Gym, the warp pads in Saffron Gym and the hidden walls in Fuchsia Gym were walked through to their leaders; Cut, Surf, Strength, the Route 23 guard and the Saffron guards were used; Victory Road's 2F puzzle was solved with a real Strength Pokemon and the road walked to Indigo Plateau, and the 1F switch and barrier were tested. Victory Road 3F's switch and the Safari Zone chain (Gold Teeth, Surf, Strength) and the Mansion in order have not been played through by hand.
+
+NOT BUILT YET
+Elevator floor-selection menus in Silph Co. and Rocket Hideout (the floors are joined by stairs instead); some of the rebuilt interiors still use stand-in wall and floor textures; Game Corner and Department Store extras. Novareon's stats, ability and moves are placeholders; every Eeveelution Mega uses Mega Eevee's shape.
+
+KNOWN ISSUES
+One freeze was reported when arriving in Cerulean (from Nugget Bridge, or by Fly) after fighting a Route 25 trainer who blocked the path; walking up from Vermilion worked. Not reproduced yet; the save involved may have been an old renamed one.
+In the emulator used for testing (DeSmuME), item balls, rocks and boulders are not drawn while you stand directly south of them (they stay solid and come back when you step away). The same happens on the previous prototype and in HeartGold's own maps; it may look different in your emulator.
+Fuchsia Gym's leader is still HeartGold's Janine (with Koga's Yellow team and her own lines), and Sabrina gives HeartGold's TM48 instead of Yellow's TM46.
+Oak's complete-Pokedex check may still expect 256 species. Novareon's follower is a recolored Umbreon placeholder. The Forms page of a few Pokemon shows the species name twice.
+
+Public files are patches and documentation only. No ROM, save or game file is distributed; you must supply your own legally obtained game. Credits: BluRosie/hg-engine and contributors; the patch decoder is RomPatcher.js by Marc Robledo (MIT); Pokemon Yellow data from pret/pokeyellow.
