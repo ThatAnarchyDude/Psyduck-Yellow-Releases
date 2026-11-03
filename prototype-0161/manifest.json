@@ -1,0 +1,38 @@
+{
+  "version": "0161-BETA",
+  "source_sha256": "65f02a56842b75aa92d775d56d657a56fe3fa993550b04dc20704ab82d760105",
+  "source_bytes": 134217728,
+  "output_sha256": "19d1e3147b640254c277af10d8d316a0eea51bb10d6706b76f604e1093467cd8",
+  "output_bytes": 201137920,
+  "output_name": "Pokemon Psyduck Yellow BETA 0.1.61.nds",
+  "cumulative": true,
+  "roundtrip_verified": true,
+  "status": "BETA for testing only: Kanto through the first Hall of Fame plus the first parts of the Johto postgame; Johto unfinished; owner-played to Cerulean only",
+  "browser_patch_stages": [
+    {
+      "url": "prototype-0037-expanded.xdelta",
+      "bytes": 31249946,
+      "sha256": "05dae8773b3309562f66ba705e26d1d13a0482df6e109f991eda777116a6066f"
+    },
+    {
+      "url": "0037-to-0038.xdelta",
+      "bytes": 10238,
+      "sha256": "a5f4f6112a2a075d295cf75a26b83d983787284db3e754c9c20fc212ce53896b"
+    },
+    {
+      "url": "0038-to-0039.xdelta",
+      "bytes": 80627,
+      "sha256": "ca0446aa012763c16b1a3df6eda32eebd5e6bd4df7805efbf96288451a6170ab"
+    },
+    {
+      "url": "0039-to-0039-art.xdelta",
+      "bytes": 8418,
+      "sha256": "0c0a17f1400d5317054f0e74464b54c6b43144a20eb6aa6902d8ece347121689"
+    },
+    {
+      "url": "0039-art-to-0161.xdelta",
+      "bytes": 3257024,
+      "sha256": "8ea8a321fc7e23a2eeb1145c6b5e96794cdbb47265c4646d396e029a0b0f6a1c"
+    }
+  ]
+}
