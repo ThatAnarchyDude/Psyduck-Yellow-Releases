@@ -1,3 +1,5 @@
+*** SUPERSEDED - DO NOT USE: BETA 0.1.57 crashes in battle (the first move you use). Use BETA 0.1.58 (prototype-0158). ***
+
 Pokemon Psyduck Yellow - BETA 0.1.57 (prototype 0157) BETA - November 3, 2026
 
 *** BETA, FOR TESTING ONLY. NOT A COMPLETE GAME. ***

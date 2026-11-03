@@ -1276,3 +1276,27 @@ What changed since 0110 (internal builds 0111–0157):
 - Not changed: the save layout.
 
 Reported, not fixed: the top screen sometimes turns black in the overworld (a save and reload fixes it); a freeze when arriving in Cerulean after Route 25 (not reproduced); the Union Room. Checked: small emulator tests on prepared saves (see the read-me). Source to rebuild this version: [https://github.com/Doctor-Pokemon/corvus-workshop/tree/publish-0157/psyduck-yellow/source](https://github.com/Doctor-Pokemon/corvus-workshop/tree/publish-0157/psyduck-yellow/source), proposed to ThatAnarchyDude/corvus-workshop (psyduck-yellow/source) by pull request.
+
+
+## November 3, 2026 — BETA 0.1.58 (prototype 0158, BETA)
+
+**BETA, FOR TESTING ONLY. Not a complete game. The Kanto campaign is built; the first parts of the Johto postgame are built but Johto is unfinished and has not been played through.**
+
+[Create BETA 0.1.58](https://raw.githack.com/Doctor-Pokemon/Psyduck-Yellow-Releases/main/prototype-0158/index.html). It builds from your original USA HeartGold file in your browser; nothing is uploaded. The finished game is named "Pokemon Psyduck Yellow BETA 0.1.58.nds".
+
+What changed since 0110 (internal builds 0111–0157):
+- **Replaces BETA 0.1.57, which crashed in battle (use 0.1.58 instead):** the Town Map change in 0.1.57 accidentally overwrote the first instruction of a battle routine, so the first move you used (for example Quick Attack in the first battle in Oak's lab) froze or crashed the game. Fixed and checked in an emulator battle.
+- **Johto postgame, first parts (unfinished):** after the first Hall of Fame the credits lead back to your room in Pallet Town; Mom hands over the Pokégear if you lack it and Oak gives an S.S. Aqua ticket. The ferry from Vermilion is the only way to Johto (the Route 22 gate, the Magnet Train and Fly stay closed until you arrive). On arrival Elm phones, Fly to New Bark Town unlocks, Elm gives a Johto starter and the Mega Ring, Mr. Pokémon gives the matching Mega Stone, and Oak upgrades the Pokédex to National. All of this has only been checked on prepared saves.
+- **Johto scales with your Johto badges:** Gym Leaders, Silver and scripted Johto battles use level 60 + 5 per Johto badge; ordinary Johto trainers and wild Pokémon climb from their original level to 100 at eight badges. The Johto League needs all 16 badges and has six level-100 Pokémon per member; Red on Mt. Silver is level 100 with a small stat boost.
+- **Town Map:** shows only Kanto (opens on Pallet Town, the cursor cannot leave Kanto) until you reach Johto; Johto and the New Bark Town Fly point appear after Elm's call.
+- **Starter line redesigned:** the starter Psyduck evolves with a Moon Stone into the Water/Psychic Golduck; Eevee gets nine new Eeveelutions (Brawleon, Venomeon, Duneon, Zephyreon, Chryseon, Strateon, Wraitheon, Wyrmeon, Ferreon) through stones, Sun/Moon, the Dusk Stone and held items, and the Stellar-type **Stellareon** (the old Novareon, renamed) through the Stellar Sandwich. Every starter-line Pokémon has its own Mega, new battle sprites and icons, and a Pokédex entry (501–509).
+- **Mega Typhlosion** (with Typhlosionite) for the Johto starter, and the Mega Stones are no longer sold in the Marts.
+- **Kanto Marts:** one shared badge-based stock in every Kanto Mart; the Viridian Mart now sells Poké Balls (its second vendor used to be attached to a hidden NPC).
+- **Bedroom:** no item ball any more; the bedroom PC starts with 999 Max Repel, 999 Rare Candy and 999 of each evolution item.
+- **Rare Candy fix:** using several candies at once now offers the moves learned on the way (the starters never did, for about 50 versions).
+- **Caves and facilities:** Mt. Moon, Rock Tunnel and Victory Road have ladder art and proper single-block warps, the cave exits glow, Mt. Moon has its blockade, and every rebuilt floor has art on its warps.
+- **3DS fixes:** a crash in Cerulean (a missing sprite animation) is guarded, Pewter's entry script and the Viridian Forest gatehouse NPCs were fixed; the Cerulean fix was confirmed on a real 3DS, the others are untested on hardware.
+- **Banner:** the title reads "Psyduck Yellow (BETA)" with a Psyduck icon.
+- Not changed: the save layout.
+
+Reported, not fixed: the top screen sometimes turns black in the overworld (a save and reload fixes it); a freeze when arriving in Cerulean after Route 25 (not reproduced); the Union Room. Checked: small emulator tests on prepared saves (see the read-me). Source to rebuild this version: [https://github.com/Doctor-Pokemon/corvus-workshop/tree/publish-0158/psyduck-yellow/source](https://github.com/Doctor-Pokemon/corvus-workshop/tree/publish-0158/psyduck-yellow/source), proposed to ThatAnarchyDude/corvus-workshop (psyduck-yellow/source) by pull request.
