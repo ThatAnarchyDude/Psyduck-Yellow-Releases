@@ -1,3 +1,5 @@
+*** SUPERSEDED: BETA 0.1.58's Town Map can still be scrolled into Johto early. Use BETA 0.1.60 (prototype-0160). ***
+
 Pokemon Psyduck Yellow - BETA 0.1.58 (prototype 0158) BETA - November 3, 2026
 
 *** BETA, FOR TESTING ONLY. NOT A COMPLETE GAME. ***
